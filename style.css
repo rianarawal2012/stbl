@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding-top: 550px;
+    text-align: center;
+}
+.profile {
+    border-radius: 50%;
+}
+#welcome {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(rgb(151, 183, 151) 0%,rgb(175, 175, 203) 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.parallax-inner {
+    display:table-cell ;
+    vertical-align: middle;
+}
+h1 {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 300;
+}
+h2 {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 300;
+}
+.menu{
+    position: fixed;
+    background-color: white;
+width: 100%;
+margin-top: 0px;
+top: 0px;
+z-index: 10;
+cursor: pointer;
+}
+.links{
+display: inline;
+padding-right: 25px;
+padding-left: 33px;
+font-size: 20px;
+font-family: fantasy;
+}
+.links:hover{
+font-size: 25px;
+text-decoration: underline;
+}
+#name {
+font-size: 50px ;
+font-family: 'Playfair Display', serif;
+}
+#bio {
+font-size: 25px;
+padding-top: 150px;
+font-family: 'Oswald', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+#writings a {
+    font-size: 18px;
+    color:green !important ;
+}
+.line { 
+    height: 6px;
+   background-color: black;
+   width: 150px;
+   margin: 8px auto;
+}
+#contact {
+    background: lightgray;
+}
+.contact_1{
+    display: inline;
+}
